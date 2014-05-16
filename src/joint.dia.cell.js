@@ -4,12 +4,6 @@
 
 if (typeof exports === 'object') {
 
-    var joint = {
-        util: require('./core').util,
-        dia: {
-            Link: require('./joint.dia.link').Link
-        }
-    };
     var Backbone = require('backbone');
     var _ = require('lodash');
 }

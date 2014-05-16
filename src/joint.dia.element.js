@@ -4,13 +4,6 @@
 
 if (typeof exports === 'object') {
 
-    var joint = {
-        util: require('./core').util,
-        dia: {
-            Cell: require('./joint.dia.cell').Cell,
-            CellView: require('./joint.dia.cell').CellView
-        }
-    };
     var Backbone = require('backbone');
     var _ = require('lodash');
 }
